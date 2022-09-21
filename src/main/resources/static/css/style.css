@@ -1,0 +1,44 @@
+/*
+body {
+	
+	background-color: #DCDCDC;
+}
+
+*/
+.bg-primary{
+	
+	background: #0040ff !important;
+
+}
+
+.banner{
+	
+	width: 100%;
+	height: 93vh;
+	background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url(../image/contactimage.jpg);
+	background-size: cover;
+	color: white;
+}
+
+
+/*Loging form css code*/
+#login .container #login-row #login-column #login-box {
+  margin-top: 40px;
+  max-width: 600px;
+  height: 400px;
+  border: 1px solid #9C9C9C;
+  background-color: #EAEAEA;
+}
+
+#login .container #login-row #login-column #login-box #login-form {
+  padding: 20px;
+}
+
+#login .container #login-row #login-column #login-box #login-form #register-link {
+  margin-top: -85px;
+}
+
+/*End Loging form css code*/
+
+
+

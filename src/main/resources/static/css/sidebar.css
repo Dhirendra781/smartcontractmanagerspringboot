@@ -1,0 +1,72 @@
+
+body{
+	background-color: #A9A9A9;
+
+}
+
+@media only screen and(max-width: 600px){
+	.sidebar {
+		display: none;
+		width: 18% !important;
+		height: 100vh;
+		background: white;
+		position: fixed;
+		padding-top: 20px;
+	}
+	
+	.content{
+		margin-left: 0% !important;
+	}
+}
+
+
+.sidebar{
+	width: 18%;
+	height: 100%;
+	background: white;
+	position: fixed;
+	padding-top: 40px;
+	z-index: 9999999999999999999999999999;
+}
+
+.sidebar a {
+	display: block;
+	width: 100%;
+	padding: 13px;
+	text-decoration: none;
+	color:gray;
+	
+}
+
+.sidebar a:hover{
+	background: #e2e2e2;
+}
+
+.sidebar .divder {
+	height: .5px;
+	width: 100%;
+	background: #e2e2e2;
+	margin-top: 10px;
+}
+
+.content{
+	margin-left: 20%;
+}
+
+.sidebar .crossBtn {
+	position: absolute;
+	top: 0px;
+	right: 35px;
+	font-size: 36px;
+	cursor: pointer;
+
+}
+
+.my_profile_picture {
+	width: 30px;
+	height: 30px;
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+
